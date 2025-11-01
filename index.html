@@ -7,17 +7,20 @@
     <title>Le sélecteur des noms</title>
 </head>
 <body>
-    <h1 id="titre">Bienvenue dans le sélecteur de noms aléatoires</h1>
-    <div>
-    <input type="text" placeholder="veuillez entrer un nom" id="ecrireNom">
-    <button onclick="ajouterNom()" id="ajouter">Ajouter</button>
+    
+    <div class="card">
+        <h1 id="titre">Sélecteur de noms aléatoires</h1>
+        <div class="entrer">
+            <input type="text" placeholder="  veuillez entrer un nom  " id="ecrireNom" class="input">
+            <button onclick="ajouterNom()" id="ajouter">Ajouter</button>
+        </div>
+        <div class="afficher">
+            <ul id="stockerNom" class="liste">
+                
+            </ul>
+            <button onclick="choisirNomAleatoireAfficherPopup()" id="choisir">choisir un nom</button>
+        </div>
     </div>
-    <div>
-        <ul id="stockerNom">
-            
-        </ul>
-    </div>
-    <button onclick="choisirNomAleatoireAfficherPopup()" id="choisir">choisir un nom</button>
     <div id="popup" >
         <p id="message"></p>
         <button onclick="masquerPopup()" id="suivant">Suivant</button>

@@ -40,7 +40,7 @@ function choisirNomAleatoireAfficherPopup(){
     const indexAleatoire= Math.floor(Math.random()*tableau.length)
     const nomAleatoire=tableau[indexAleatoire];
     //partie AfficherPopup
-    message.textContent=nomAleatoire;
+    message.innerHTML=`Le nom choisi est :<br><br> ${nomAleatoire}`;;
     popup.style.display="block";
     choisir.disabled = true;
     ajouter.disabled = true;
