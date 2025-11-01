@@ -10,17 +10,17 @@
     <h1 id="titre">Bienvenue dans le sélecteur de noms aléatoires</h1>
     <div>
     <input type="text" placeholder="veuillez entrer un nom" id="ecrireNom">
-    <button onclick="ajouterNom()">Ajouter</button>
+    <button onclick="ajouterNom()" id="ajouter">Ajouter</button>
     </div>
     <div>
         <ul id="stockerNom">
             
         </ul>
     </div>
-    <button onclick="choisirNomAleatoireAfficherPopup()">choisir un nom</button>
+    <button onclick="choisirNomAleatoireAfficherPopup()" id="choisir">choisir un nom</button>
     <div id="popup" >
         <p id="message"></p>
-        <button onclick="masquerPopup()">Suivant</button>
+        <button onclick="masquerPopup()" id="suivant">Suivant</button>
     </div>
     <script src="script.js"></script>
 </body>
