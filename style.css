@@ -50,14 +50,14 @@ input{
 }
 button{
     background-color: #a4bd01;
-    color:#e7f3f8;
+    color:#005249;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: 5px 5px 8px #e7f3f8;
 }
 button:hover{
     background-color: #e7f3f8;
     color:#a4bd01;
+    box-shadow: 2px 2px 5px  #a4bd01;
 }
 .liste{
     list-style-type: none;
@@ -88,9 +88,9 @@ li{
     display: none;
     align-items: center;
     justify-content:center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(2, 61, 17, 0.555);
     border-radius: 30px;
-    box-shadow: 5px 5px 10px #a4bd01;
+    box-shadow: 10px 10px 25px #005249;
     text-align: center;
     width: 300px;
     height: 250px;
